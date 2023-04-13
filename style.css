@@ -1,34 +1,41 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.body{
+
+.body {
     height: 200%;
 }
-.navigation{
+
+.navigation {
     width: 100%;
-    border-bottom: 1px solid  rgb(192, 191, 191);
+    border-bottom: 1px solid rgb(192, 191, 191);
     display: inline-block;
     margin: 0%;
 }
-ul{
-    margin: 1% ;
+
+ul {
+    margin: 1%;
 }
-.header li{
- display: inline-block;
+
+.header li {
+    display: inline-block;
 }
-.header a{
+
+.header a {
     color: black;
     text-decoration: none;
     padding: 10px 10px 6px 6px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.searchbar{
+
+.searchbar {
     float: right;
     height: 40%;
     width: 30%;
 }
-.greenbutton{
+
+.greenbutton {
     float: right;
     padding: 6px 15px 6px 15px;
     background-color: #206a16;
@@ -39,47 +46,55 @@ ul{
     padding: 13px;
     width: 10%;
 }
-.searchbar select{
+
+.searchbar select {
     padding: 6px 2px 6px 2px;
     border: 0px;
     float: right;
     border-radius: 20px;
 }
-.searchbar input{
+
+.searchbar input {
     padding: 6px 30px 6px 30px;
     border: 0px;
     border-radius: 20px;
 }
-.searchbar{
+
+.searchbar {
     border: 2px solid rgb(211, 206, 206);
     border-radius: 20px;
     margin-right: 5%;
 }
-.logo{
-   float: left; 
-   width: 6%;
-   position: relative;
-   bottom: 8%;
-   right: 2%;
+
+.logo {
+    float: left;
+    width: 6%;
+    position: relative;
+    bottom: 8%;
+    right: 2%;
 }
-.body{
+
+.body {
     display: inline-block;
 }
-.mainheading{
+
+.mainheading {
     display: inline-block;
-    color:#14a800;
+    color: #14a800;
     font-size: 90px;
     font-weight: 530;
     width: 40%;
     margin-left: 8%;
     margin-bottom: 0%;
 }
-.mainimg{
+
+.mainimg {
     float: right;
     height: 30%;
     width: 40%;
 }
-.mainpara{
+
+.mainpara {
     display: inline-block;
     font-size: 30px;
     width: 50%;
@@ -87,20 +102,25 @@ ul{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 8%;
 }
-#greytext{
+
+#greytext {
     color: #858d85d5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 8%; 
+    margin-left: 8%;
 }
-.greypara{
-    color: #d5e0d5d5;;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+.greypara {
+    color: #d5e0d5d5;
+    ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.companylogo{
+
+.companylogo {
     width: 7%;
     margin-left: 8%;
 }
-.blackheading{
+
+.blackheading {
     display: inline-block;
     font-size: 90px;
     font-weight: 530;
@@ -108,61 +128,72 @@ ul{
     margin-left: 8%;
     color: black;
 }
-.flexcontainer{
+
+.flexcontainer {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
 }
-.bluecard{
+
+.bluecard {
     height: 50%;
     width: 35%;
     background-color: #13544e;
     border-radius: 5px;
     padding: 25px
 }
-.orangecard{
+
+.orangecard {
     height: 50%;
     width: 35%;
     background-color: #bc511b;
     border-radius: 5px;
     padding: 25px;
 }
-.whitepara{
+
+.whitepara {
     color: aliceblue;
     font-size: 28px;
-    font-weight: 200;   
+    font-weight: 200;
 }
-hr{
+
+hr {
     color: #d5e0d5d5;
 }
-.gridparas{
+
+.gridparas {
     display: grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     row-gap: 10px;
 }
-.footer{
+
+.footer {
     width: auto;
     height: 40%;
-    background-color:#303830;
+    background-color: #303830;
     margin-top: 10%;
     padding: 20px;
     cursor: pointer;
     border-radius: 10px;
 }
-.footerlist{
+
+.footerlist {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.footerpara{
+
+.footerpara {
     color: whitesmoke;
     list-style-type: none;
 }
-h3{
+
+h3 {
     color: whitesmoke;
     display: inline-block;
 }
-.footerimage{
+
+.footerimage {
     width: 30px;
     height: 30px;
     margin-top: 5%;
@@ -170,24 +201,30 @@ h3{
     border: 1px solid white;
     border-radius: 30px;
 }
-#float{
+
+#float {
     float: right;
     width: 20%;
     margin-top: 3%;
 }
-.inlinelist,li{
+
+.inlinelist,
+li {
     color: whitesmoke;
     list-style-type: none;
     display: flex;
     margin-left: 2%;
 }
-.inlinelist li:hover{
+
+.inlinelist li:hover {
     text-decoration: underline;
-    cursor:pointer;
+    cursor: pointer;
 }
-.greenbutton:hover{
+
+.greenbutton:hover {
     background-color: #14a800;
 }
-.searchbar:hover{
+
+.searchbar:hover {
     background-color: #d5e0d5;
 }
