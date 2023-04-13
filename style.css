@@ -101,12 +101,14 @@ ul {
     color: #5e6d55;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 8%;
+
 }
 
 #greytext {
     color: #858d85d5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 8%;
+
 }
 
 .greypara {
@@ -114,6 +116,7 @@ ul {
     ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .companylogo {
     width: 7%;
